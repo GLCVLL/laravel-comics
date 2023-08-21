@@ -1,1 +1,13 @@
 //@import '~bootstrap/scss/bootstrap';
+
+/* reset */
+@use 'reset';
+
+/* utilities */
+@use 'utils';
+
+/* generals */
+@use 'general';
+
+/* header */
+@use 'header';
