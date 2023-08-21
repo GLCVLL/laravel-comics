@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="{{ asset('images/favicon.ico') }}">
-    <title>{{ env('APP_NAME') }} | Home</title>
+    <title>{{ env('APP_NAME') }} @yield('title')</title>
     @vite('resources/js/app.js')
 </head>
 
@@ -14,7 +14,9 @@
     <!-- Header -->
     @include('includes.header');
 
-    <main></main>
+    <main>
+        @yield('main-content')
+    </main>
 
     <!-- Footer -->
     @include('includes.footer');
