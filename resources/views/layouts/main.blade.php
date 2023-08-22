@@ -12,14 +12,14 @@
 
 <body>
     <!-- Header -->
-    @include('includes.header');
+    @include('includes.header')
 
     <main>
         @yield('main-content')
     </main>
 
     <!-- Footer -->
-    @include('includes.footer');
+    @include('includes.footer')
 
 </body>
 

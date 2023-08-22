@@ -1,3 +1,3 @@
-@extends('layouts.main');
+@extends('layouts.main')
 
-@section('title, Comics');
+@section('title, Comics')
