@@ -14,6 +14,7 @@
     <!-- Header -->
     @include('includes.header')
 
+    <!-- Main -->
     <main>
         @yield('main-content')
     </main>
